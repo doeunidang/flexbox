@@ -1,0 +1,37 @@
+@charset "UTF-8";
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+  height: 550px;
+  background-color: rgb(195, 168, 172);
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+.item1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 21%;
+  height: 21%;
+  background-color: rgb(150, 119, 124);
+  overflow: overlay;
+  box-sizing: border-box;
+  padding: 4px;
+  gap: 4px;
+}
+.item1 div {
+  width: 17%;
+  height: 17%;
+  background-color: rgb(98, 79, 82);
+}
+
+.item1::-webkit-scrollbar {
+  width: 1vW; /* 스크롤바의 너비 */
+}
+
+.item1::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background-color: hsla(0deg, 0%, 98%, 0.29);
+  border-radius: 100px;
+}/*# sourceMappingURL=과제1.css.map */
